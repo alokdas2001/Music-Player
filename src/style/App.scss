@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+body {
+	font-family: 'Inconsolata', monospace;
+}
+
+h1,
+h2,
+h3 {
+	color: rgb(231, 19, 19);
+}
+
+h3,
+h4 {
+	font-weight: 600;
+	color: rgb(7, 0, 0);
+}
+
+.App {
+	transition: all 0.5s ease;
+}
+.library-active {
+	margin-left: 10%;
+}
+
+@import './song';
+@import './player';
+@import './library';
+@import './nav';
